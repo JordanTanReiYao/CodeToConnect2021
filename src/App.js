@@ -24,7 +24,6 @@ function App() {
 
   // Handle change in uploaded files chosen
   const handleChange = event => {
-    let result=Object.keys(event.target.files).map((key)=>event.target.files[key])
     setFiles(event.target.files)
   };
  
